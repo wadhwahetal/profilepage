@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe0ba10684.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="my images/logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li> 
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolios</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm Olivia from USA</h1>
+        </div>
+    </div>
+<!---------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="my images/user image.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>As a UI UX designer, my name is Olivia and I am passionate 
+                    about designing beautiful,
+                     intuitive interfaces that help people be more productive.
+                      I work with clients to create innovative and effective 
+                      user interfaces that help them get the most out 
+                      of their products.</p>
+
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App and Interfaces</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021</span><br>freelanced for an agency</li>
+                            <li><span>2021</span><br>Took intiative in marketing field</li>
+                            <li><span>2021</span><br>Designed Graphics for a NGO</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>Graduated from school</li>
+                            <li><span>2020</span><br>Graduated 12th grade</li>
+                            <li><span>2020-current</span><br>Graduating degree college</li>
+                        </ul>
+                      </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-------------------services---------------->
+<div id="services">
+    <div id="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>
+                Web Design
+            </h2>
+            <p>Creating areas of web design, such as user interface, user experience,
+                 web graphic, and search engine optimization design, 
+                 which all focus on providing a positive or enjoyable 
+                 experience for the visitor.</p>
+                 <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>
+                UI/UX Design
+            </h2>
+            <p>A UI, UX, and front-end web developer, responsible for applying
+                 interactive and visual design principles on websites and web applications
+                  for a positive and cohesive user experience 
+                </p>
+                 <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>
+                App Design
+            </h2>
+            <p>Designing critical components of an application to deliver the 
+                requested functionality and help achieve the 
+                client business objectives .</p>
+                 <a href="#">Learn more</a>
+        </div>
+        </div>
+    </div>
+</div>
+<!---------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="my images/work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Connects you to the people
+                         around the world online</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="my images/work-2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Listen to Music online 
+                        without interruptions</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="my images/work-3.png" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>A platform for all the vendors 
+                        to sell and buyers to purchase</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+<!-------------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Olivia@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>123456</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="my images/My Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                   <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Olivia. Made by Hetal Wadhwa  </p>
+    </div>
+</div>
+
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
